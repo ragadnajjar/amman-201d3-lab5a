@@ -112,20 +112,20 @@ IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // Write your code here
-// function multiplyArray(multArr) { //eslint-disable-line
-//     var array = [2, 3, 4]; //eslint-disable-line
+function multiplyArray(multArr) { //eslint-disable-line
+    var array = [2, 3, 4]; //eslint-disable-line
 
-//     function sumArray(sumArr) { //eslint-disable-line
-//       var result=[0,''];
-//       for(var i = 0; i < array.length;  i++) {
-//          result = sum(result[0],array[i]) ;}
-//         var vn = '2,3,4 was passed in as an array of numbers, and 9 is their sum.';
-//         return[result[0],vn];
+    function sumArray(sumArr) { //eslint-disable-line
+      var result=[0,''];
+      for(var i = 0; i < array.length;  i++) {
+         result = sum(result[0],array[i]) ;}
+        var vn = '2,3,4 was passed in as an array of numbers, and 9 is their sum.';
+        return[result[0],vn];
         
     
-//     }
+    }
 
-// }
+}
 
 // Here is the test for multiplyArray(); 
 testMultiplyArray(array);
