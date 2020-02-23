@@ -117,16 +117,16 @@ IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // Write your code here
-var array = [2, 3, 4]; //eslint-disable-line
-function multiplyArray(multArr) { //eslint-disable-line
+// var array = [2, 3, 4]; //eslint-disable-line
+// function multiplyArray(multArr) { //eslint-disable-line
 
-    // function sumArray(sumArr) { //eslint-disable-line
-        var result = 1
-        for (var i = 0; i < multArr.length; i++) {
-            result = multiply(result, multArr[i])[0];
-        }
-        var vn = 'The numbers 2,3,4 have a product of 24.';
-        return [result, vn];
+//     // function sumArray(sumArr) { //eslint-disable-line
+//         var result = 1
+//         for (var i = 0; i < multArr.length; i++) {
+//             result = multiply(result, multArr[i])[0];
+//         }
+//         var vn = 'The numbers 2,3,4 have a product of 24.';
+//         return [result, vn];
     // }
 
 }
